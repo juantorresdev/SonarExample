@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/TT2019-B087?serverTimezone=UTC
+    username: root
+    password: q1w2r4t5y6u7
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    generate-ddl: true
+    show-sql: true
